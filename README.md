@@ -21,7 +21,7 @@ All of the packages and libraries used in the project are documented in the requ
 
 ## Data
 
-The data is stored in CSV files, and each CSV file was downloaded from OSMI's website. Each year between 2016-2021 has a CSV file, resulting in 6 total CSV files.
+The data is stored in CSV files, and each CSV file was downloaded from OSMI's website (https://osmhhelp.org/research.html). Each year between 2016-2021 has a CSV file, resulting in 6 total CSV files. 
 
 ## Description of Directory
 
@@ -41,8 +41,11 @@ Files:
 ## Directions on Acquiring and Running the Code
 
 1. Clone the main repository to a local server.
-2. Install the Python packages and libraries in requirements.txt
+2. Install Python v3.11.0 and the packages in requirements.txt
 3. Ensure that you can open and run Python files and Jupyter Notebook files.
 4. All of the Jupyter Notebooks (.ipynb files) contained under the root directory (DSCI400_Sp23) are the main files with Python code to open and run.
 5. To run the code in the root directory, download the six CSV data sets from the "data" folder
 6. After completing steps 1 through 5, you should be able to open the Jupyter Notebook files and run through the code.
+
+##Contact Information
+Email: mc115@rice.edu (Milan Chopra), nyl1@rice.edu (Nasha Wanichwecharungruang), ms161@rice.edu (Matthew Su)
