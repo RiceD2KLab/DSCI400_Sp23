@@ -43,6 +43,6 @@ Files:
 1. Clone the main repository to a local server.
 2. Install the Python packages and libraries in requirements.txt
 3. Ensure that you can open and run Python files and Jupyter Notebook files.
-4. All of the python files contained under the root directory are the main files with code to open and run.
+4. All of the Jupyter Notebooks (.ipynb files) contained under the root directory (DSCI400_Sp23) are the main files with Python code to open and run.
 5. To run the code in the root directory, download the six CSV data sets from the "data" folder
 6. After completing steps 1 through 5, you should be able to open the Jupyter Notebook files and run through the code.
