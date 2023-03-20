@@ -21,9 +21,8 @@ All of the packages and libraries used in the project are documented in the requ
 
 ## Data
 
-The data is stored online on both OSMI's website and on kaggle. You must download each years raw survey data individually. Once you have downloaded all 6 datasets, please store them in the data folder after you have cloned the main repository (step 1 of Directions on Acquiring and Running the Code).
+The data is stored in CSV files, and each CSV file was downloaded from OSMI's website. Each year between 2016-2021 has a CSV file, resulting in 6 total CSV files.
 
-After the data has been stored correctly, proceed to start data wrangling using the "Data Cleaning Main".ipynb.
 ## Description of Directory
 
 Below is a description of each of the files and folders in the root directory.
