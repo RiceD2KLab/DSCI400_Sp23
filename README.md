@@ -47,5 +47,5 @@ Files:
 5. To run the code in the root directory, download the six CSV data sets from the "data" folder
 6. After completing steps 1 through 5, you should be able to open the Jupyter Notebook files and run through the code.
 
-##Contact Information
+## Contact Information
 Email: mc115@rice.edu (Milan Chopra), nyl1@rice.edu (Nasha Wanichwecharungruang), ms161@rice.edu (Matthew Su)
