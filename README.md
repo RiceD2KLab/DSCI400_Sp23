@@ -28,11 +28,10 @@ The data is stored in CSV files, and each CSV file was downloaded from OSMI's we
 Below is a description of each of the files and folders in the root directory.
 
 Folders:
-- DSCI400Data: Contains each of the raw and updated csv files for the survey data
+- data: Contains each of the raw and updated csv files for the survey data
+- functions: Contains a python file for data cleaning and a python file for vectorizng the cleaned dataframe
 
 Files:
-- DataCleaningMain.ipynb: Contains the code to wrangle and clean the data. This includes finding common questions between years, renaming inconsistent column titles, filtering out largely null columns, and combining all the datasets
-- DataVectorization.ipynb: Contains the code to vectorize the combined dataframe from DataCleaningMain.
 - DataVisualization.ipynb: Contains the code to visualize the distribution of the vectorized features in histograms. Also contains a correlation matrix between all features in the vectorized dataframe.
 - MachineLearningModelling.ipynb: Contains the code of various machine learning models run on the vectorized dataframe, where the output variable we are trying to predict is the answer to the question, "Do you currently have a mental health disorder?" (i.e., the feature labeled was 45). Models so far include logistic regression, random forest, and decision tree models.
 
@@ -43,7 +42,7 @@ Files:
 
 1. Clone the main repository to a local server.
 2. Install the Python packages and libraries in requirements.txt
-3. Ensure that you can open and run Python files.
+3. Ensure that you can open and run Python files and Jupyter Notebook files.
 4. All of the python files contained under the root directory are the main files with code to open and run.
-5. To run the code in the root directory, have the six data sets stored in the DSCI400Data folder
-6. After completing steps 1 through 5, you should be able to open the python files and run through the code.
+5. To run the code in the root directory, download the six CSV data sets from the "data" folder
+6. After completing steps 1 through 5, you should be able to open the Jupyter Notebook files and run through the code.
