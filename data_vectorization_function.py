@@ -130,7 +130,7 @@ def vectorizeDataframe(dataframe):
       dataframe[col] = dataframe[col].map(mappingQuestion54)
 
   #Drop any row than contains NaN value 
-  dataframe = dataframe.dropna(how='any')
+  #dataframe = dataframe.dropna(how='any')
 
   #After all categorical text responses have been converted appropriately to a number, make all elements in vectorized dataframe a float value
   dataframe = dataframe.astype(float)
