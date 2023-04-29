@@ -133,7 +133,7 @@ def vectorizeDataframe(dataframe):
   #dataframe = dataframe.dropna(how='any')
 
   #After all categorical text responses have been converted appropriately to a number, make all elements in vectorized dataframe a float value
-  dataframe = dataframe.astype(float)
+  #dataframe = dataframe.astype(float)
 
   return dataframe
 
