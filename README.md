@@ -28,11 +28,13 @@ The data is stored in CSV files, and each CSV file was downloaded from OSMI's we
 Below is a description of each of the files and folders in the root directory.
 
 Folders:
-- data: Contains each of the raw and updated csv files for the survey data
+- data: Contains each year's survey data in csv files 
 - functions: Contains a python file for data cleaning and a python file for vectorizng the cleaned dataframe
 
 Files:
-- DataVisualization.ipynb: Contains the code to visualize the distribution of the vectorized features in histograms. Also contains a correlation matrix between all features in the vectorized dataframe.
+- data_cleaning_functions.py: Contains functions to clean each year's data and combining them into a combined text matrix, a text matrix representing precovid years (2016-2019), and a text matrix representing during covid years (2020-2021).
+- data_vectorization_function.py: Contains a function to convert matrix of categorical text responses to numerical responses.
+- Data Exploration.ipynb: Contains the code to visualize the distribution of the vectorized features in histograms. Also contains a correlation matrix between all features in the vectorized dataframe.
 - MachineLearningModelling.ipynb: Contains the code of various machine learning models run on the vectorized dataframe, where the output variable we are trying to predict is the answer to the question, "Do you currently have a mental health disorder?" (i.e., the feature labeled was 45). Models so far include logistic regression, random forest, and decision tree models.
 
 
