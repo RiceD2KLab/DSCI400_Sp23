@@ -42,7 +42,7 @@ Files:
 ## Directions on Acquiring and Running the Code
 
 1. Open a notebook in Google Colab. Copy the Github repository link and paste it into the search bar. 
-2. Ensure that you can open the Data_Exploration and Machine_Learning_Modeling Jupyter Notebook files in Colab.
+2. Ensure that you can open the Data_Exploration and Machine_Learning_Models Jupyter Notebook files in Colab.
 3. Before running the code in the root directory, download the six CSV data sets from the "data" folder
 4. After completing steps 1 through 3, follow the instructions in the Jupyter Notebook files and run the code.
 
