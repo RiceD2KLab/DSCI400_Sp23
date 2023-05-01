@@ -34,7 +34,7 @@ Files:
 - data_cleaning_functions.py: Contains functions to clean each year's data and combining them into a combined text matrix, a text matrix representing precovid years (2016-2019), and a text matrix representing during covid years (2020-2021).
 - data_vectorization_function.py: Contains a function to convert matrix of categorical text responses to numerical responses.
 - Data_Exploration.ipynb: Contains the code for exploratory data analysis. Visualizes the distribution of the vectorized features in histograms, with focus on the output variable and demographic and work logistics features. Also uses the Apriori algorithm to identify certain responses to particular questions that frequently co-occur together.
-- MachineLearningModelling.ipynb: Contains the code of various machine learning models run on the vectorized dataframe, where the output variable we are trying to predict is the answer to the question, "Do you currently have a mental health disorder?" (i.e., the feature labeled was 45). Models so far include logistic regression, random forest, and decision tree models.
+- Machine_Learning_Models.ipynb: Contains the code of various machine learning models run on the vectorized dataframe, where the output variable we are trying to predict is the answer to the question, "Do you currently have a mental health disorder?" (i.e., the feature labeled was 45). Models include logistic regression, random forest, and decision tree models. We also capitalize on the interpretability of these models by examining feature importance.
 
 
 
