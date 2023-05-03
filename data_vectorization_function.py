@@ -130,6 +130,6 @@ def vectorizeDataframe(dataframe):
       dataframe[col] = dataframe[col].map(mappingQuestion54)
 
   #Drop any row than contains NaN value 
-  #dataframe = dataframe.dropna(how='any')
+  dataframe = dataframe.dropna(how='any')
 
   return dataframe
