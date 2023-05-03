@@ -26,10 +26,10 @@ def vectorizeDataframe(dataframe):
   #Convert column headers to string
   dataframe.columns = dataframe.columns.astype(str) 
 
-  # Change all responses in the 'What country do you live in?' column to 1 if the value is 'United States', otherwise set it to 0
+  # Change all responses in the 'What country do you live in?' column to 0 if the value is 'United States', otherwise set it to 1
   dataframe['55'] = dataframe['55'].apply(lambda x: 0 if x == 'United States of America' else 1)
 
-  # Change all responses in the 'What country do you work in?' column to 1 if the value is 'United States', otherwise set it to 0
+  # Change all responses in the 'What country do you work in?' column to 0 if the value is 'United States', otherwise set it to 1
   dataframe['57'] = dataframe['57'].apply(lambda x: 0 if x == 'United States of America' else 1)
 
   # Create a dictionary of dictionaries that maps string values to numeric values for each column
@@ -133,7 +133,7 @@ def vectorizeDataframe(dataframe):
   dataframe = dataframe.dropna(how='any')
 
   #After all categorical text responses have been converted appropriately to a number, make all elements in vectorized dataframe a float value
-  dataframe = dataframe.astype(float)
+  #dataframe = dataframe.astype(float)
 
   return dataframe
 
